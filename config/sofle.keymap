@@ -94,9 +94,9 @@
         Adjust_layer {
         bindings = <
 &bt BT_CLR                      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                                    &none &none &none &none &none &none
-       &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY       &kp LPAR           &kp RPAR  &kp BACKSPACE
-       &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp LCLK  &mkp RCLK         &kp UP      &trans  &kp DOUBLE_QUOTES        &trans
-       &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)     &trans    &kp LEFT  &kp DOWN      &kp RIGHT   &trans    &trans
+       &kp TILDE  &kp EXCL              &kp AT                &kp HASH               &kp DLLR   &kp PRCNT     &kp CARET  &kp AMPS     &kp KP_MULTIPLY     &kp LPAR     &kp RPAR  &kp BACKSPACE
+       &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)  &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp LCLK  &mkp RCLK    &kp UP    &trans    &kp DOUBLE_QUOTES        &trans
+       &trans    &mwh SCROLL_HOR(-15)   &mmv MOVE_HOR(-1500)  &mmv MOVE_VERT(1500)   &mmv MOVE_HOR(1500)      &mwh SCROLL_HOR(15)     &trans    &kp LEFT  &kp DOWN      &kp RIGHT   &trans    &trans
                                                 &none           &none           &none           &none               &none            &none      &none &none &none &none
         >;
         };
